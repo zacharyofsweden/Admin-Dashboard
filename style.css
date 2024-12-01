@@ -1,0 +1,19 @@
+* {
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.header {
+    background-color: aliceblue;
+}
+.dashboard {
+    background-color: aquamarine;
+}
+
+.contentPage {
+    background-color: lightgray;
+}
