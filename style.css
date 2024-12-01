@@ -14,8 +14,64 @@ body {
 .header {
     grid-column: 2/2;
     grid-row: 1/1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     background-color: aliceblue;
 }
+
+.top {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headerSearch {
+    display: flex;
+    height: 20px;
+    width: 15rem;
+    background-color: aquamarine;
+}
+
+.HeaderSearchIcon {
+    background-color: black;
+    width: 1rem;
+    height: 1rem;
+}
+
+.headerAcc {
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(243, 245, 199);
+}
+
+.headerAcc>div {
+
+    height: 1rem;
+    width: 10px;
+    background-color: rgb(202, 169, 142);
+}
+
+.bottom {
+    background-color: burlywood;
+
+}
+
+.bottomAccInfo {
+    display: flex;
+    gap: 1rem;
+}
+
+.bottomAccInfo>div {
+    height: 1rem;
+    width: 10px;
+    background-color: rgb(202, 169, 142);
+}
+
+
+
+.BottomUserGreating {}
+
+.bottUserName {}
 
 .dashboard {
     grid-column: 1/1;
