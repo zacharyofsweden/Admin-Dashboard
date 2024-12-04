@@ -10,7 +10,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
-    gap: 0.2rem;
 }
 
 .header {
@@ -18,6 +17,7 @@ body {
     grid-row: 1/1;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    
 }
 
 .top {
@@ -70,6 +70,7 @@ input {
     border-radius: 2rem;
     object-fit: contain;
     height: 3rem;
+    margin-left: 1rem;
 }
 
 .topUserName {
@@ -80,13 +81,13 @@ input {
     background-color: #fafafa;
     display: grid;
     grid-template-columns: 2fr 1fr;
-
 }
 
 .bottomAccInfo {
     display: flex;
     gap: 1rem;
     place-items: center;
+    
 }
 
 .hiThere {
@@ -189,6 +190,8 @@ input {
 .contentHeader > p {
   font-size: 1.4rem;
   font-weight: bold;
+  margin-left: 1rem;
+
 }
 
 .contentArticals {
@@ -209,23 +212,26 @@ input {
 
 .articals > div {
     margin: 1rem;
-    
+    border-radius: 5%;
     background-color: #fafafa;
+    box-shadow: 5px 5px rgb(205, 207, 207);
 }
 
 
 
 .anusments {
     background-color: #e7e5e4;
+    
     display: grid;
     place-items: center;
 }
 
 .contentAmuse {
-    height: 80%;
-    width: 70%;
+    height: 90%;
+    width: 90%;
     background-color: #fafafa;
-    border-radius: 10%;
+    border-radius: 5%;
+    box-shadow: 5px 5px rgb(205, 207, 207);
 }
 .trending {
     background-color: #e7e5e4;
@@ -234,8 +240,9 @@ input {
 }
 
 .contentTrending {
-    height: 80%;
-    width: 70%;
+    height: 90%;
+    width: 90%;
     background-color: #fafafa;
-    border-radius: 10%;
+    border-radius: 5%;
+    box-shadow: 5px 5px rgb(205, 207, 207);
 }
