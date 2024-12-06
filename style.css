@@ -45,7 +45,7 @@ body {
 }
 
 input {
-    
+
     border: 0;
     flex: 1;
     border-radius: 2rem;
@@ -115,14 +115,15 @@ input {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fafafa;
     gap: 0.5rem;
+    max-width: 17rem;
 
 }
 
 .share {
     margin-right: 1rem;
 }
+
 .bottomButtons>* {
     cursor: pointer;
     background-color: #0ea5e9;
@@ -155,12 +156,24 @@ input {
 .nav {
     display: flex;
     flex-direction: column;
-    margin-left: 0.9rem;
-    gap: 1rem;
-
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+    gap: 0.6rem;
+    
 }
+
+.nav>* {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .nav>*:hover {
-   cursor: pointer;
+    cursor: pointer;
+}
+
+.iconImg {
+    height: 1.3rem;
 }
 
 .nav>p {
@@ -172,7 +185,7 @@ input {
 .settings {
     display: flex;
     flex-direction: column;
-    margin-left: 1.6rem;
+
     gap: 1rem;
 }
 
@@ -181,7 +194,14 @@ input {
     font-size: 1.2rem;
     color: #fafafa;
     cursor: pointer;
+    display: flex;
+
+    align-items: center;
+    gap: 0.6rem;
+    margin-left: 1.2rem;
+    margin-right: 0.4rem;
 }
+
 
 .contentPage {
     grid-column: 2/2;
@@ -200,15 +220,16 @@ input {
     align-content: center;
 
 }
+
 .anoucmentTitles {
     font-size: 1.4rem;
-    
+
     margin-left: 1rem;
 }
 
-.yourProjectTitles{
+.yourProjectTitles {
     font-size: 1.4rem;
-    
+
     margin-left: 1rem;
 }
 
@@ -368,17 +389,21 @@ input {
     display: flex;
     align-items: center;
     gap: 0.6rem;
+    overflow: auto;
 }
 
-.trendingContent {}
+.trendingContent {
+    text-overflow:ellipsis;
+}
 
 .trendHead {
-    font-size: 0.7rem;
-    font-weight: bold;
+    text-overflow:ellipsis;
+    font-size: 0.8rem;
     text-wrap: wrap;
 }
 
 .trendText {
+    text-overflow:ellipsis;
     font-size: 0.6rem;
     text-wrap: wrap;
 }
